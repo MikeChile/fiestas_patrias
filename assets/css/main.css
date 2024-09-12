@@ -1,0 +1,252 @@
+/* Asegúrate de que el body ocupe toda la pantalla */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Estilos para la pantalla de carga */
+#carga {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Clase que oculta la pantalla de carga */
+#carga.oculto {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Contenedor de la bandera */
+.bandera-chilena {
+  width: 40vw;
+  height: 20vw;
+  max-width: 600px;
+  max-height: 400px;
+  min-width: 250px;
+  min-height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+  animation: flamear 4s infinite ease-in-out;
+}
+
+/* Estilo para la franja azul con estrella */
+.bandera-chilena .estrella {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: flamear 4s infinite ease-in-out;
+}
+
+.bandera-chilena .estrella::before {
+  content: "★";
+  color: white;
+  font-size: 5vw;
+}
+
+/* Estilos para las franjas blanca y roja */
+.bandera-chilena .franja-blanca {
+  background-color: white;
+  grid-column: span 2;
+  animation: flamear 4s infinite ease-in-out;
+}
+
+.bandera-chilena .franja-roja {
+  background-color: red;
+  grid-column: span 4;
+  animation: flamear 4s infinite ease-in-out;
+}
+
+/* Estilo para el texto de "Hola Mundo" */
+#carga h1 {
+  font-size: 4vw;
+  color: black;
+  margin-top: 2rem;
+}
+
+/* Animación de flamear */
+@keyframes flamear {
+  0% {
+    transform: translateX(0) scaleY(1);
+  }
+  25% {
+    transform: translateX(-5px) scaleY(1.02);
+  }
+  50% {
+    transform: translateX(-10px) scaleY(0.98);
+  }
+  75% {
+    transform: translateX(-5px) scaleY(1.02);
+  }
+  100% {
+    transform: translateX(0) scaleY(1);
+  }
+}
+
+/* Asegúrate de que el body ocupe toda la pantalla */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Contenedor del fondo */
+#background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1.5s ease-in-out;
+  z-index: -1; /* Asegúrate de que esté detrás del contenido principal */
+}
+
+/* Estilo para el contenedor del slideshow */
+#slideshow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw; /* Ajusta según sea necesario */
+  height: 80vh; /* Ajusta según sea necesario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  border-radius: 10px; /* Opcional: para bordes redondeados */
+  z-index: 1000; /* Asegúrate de que esté en una capa superior */
+}
+
+/* Caja dentro del contenedor del slideshow */
+#pallas {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; /* Opcional: para bordes redondeados */
+  padding: 20px;
+  color: white;
+}
+
+/* Estilos para la pantalla de carga */
+#carga {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.61);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Clase que oculta la pantalla de carga */
+#carga.oculto {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Estilo para el botón "Siguiente Palla" */
+#siguientePalla {
+  background-color: #c8102e; /* Rojo de la bandera chilena */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: bold; /* Fuente en negrita */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+#siguientePalla:hover {
+  background-color: #0033a0; /* Azul de la bandera chilena */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+}
+
+#siguientePalla:active {
+  background-color: #002a6f; /* Azul más oscuro cuando se hace clic */
+  transform: scale(
+    0.95
+  ); /* Disminuye ligeramente el tamaño cuando se hace clic */
+}
+#pallas {
+  padding: 20px;
+  color: #fff;
+}
+
+.estrofa {
+  margin-bottom: 20px;
+}
+
+.estrofa p {
+  margin: 10px 0;
+}
+
+#play {
+  width: 50px;
+  height: 50px;
+  background-color: #c8102e;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Asegúrate de que el texto se ajuste en móviles */
+@media (max-width: 768px) {
+  #slideshow {
+    width: 90vw; /* Ajusta según sea necesario */
+    height: 90vh; /* Ajusta según sea necesario */
+  }
+
+  #pallas {
+    padding: 10px; /* Menos padding en móviles */
+    font-size: 12px;
+  }
+
+  #play {
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99999;
+  }
+
+  #play i {
+    font-size: 20px; /* Tamaño del icono en móviles */
+  }
+
+  #siguientePalla {
+    font-size: 14px;
+  }
+}

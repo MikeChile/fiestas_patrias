@@ -1,0 +1,255 @@
+[
+    {
+        "id": 1,
+        "titulo": "JavaScript, El Rey del Código",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "En el mundo web, JavaScript manda,",
+                    "Es el rey del código, nadie lo alcanza.",
+                    "Desde los formularios hasta el DOM,",
+                    "Con este lenguaje, el trabajo es un bombón.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con ES6 y las promesas en la mano,",
+                    "El desarrollo se hace más liviano.",
+                    "Desde React a Angular en la palestra,",
+                    "JavaScript es la joya que nunca se resta."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "El Programador y su Habilidad",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "El programador con su habilidad,",
+                    "Crea maravillas en la virtualidad.",
+                    "Con código fino y mente aguda,",
+                    "Resuelve problemas con maestría y altura.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Desde el backend al frontend con destreza,",
+                    "El programador avanza sin pereza.",
+                    "Con un clic y una línea precisa,",
+                    "Transforma el caos en pura belleza."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Bootcamp, El Reto y la Gloria",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "En el bootcamp se vive la emoción,",
+                    "Un curso intenso que es una lección.",
+                    "Desde cero a héroe en días contados,",
+                    "Programadores listos, ¡muy bien preparados!",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con proyectos y desafíos al por mayor,",
+                    "El bootcamp transforma al mejor.",
+                    "Al final, con esfuerzo y gran fervor,",
+                    "El futuro del código se pinta de color."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Código y Creatividad",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "Con código y creatividad en la mezcla,",
+                    "El programador hace magia que se refleja.",
+                    "Desde el diseño hasta la funcionalidad,",
+                    "Cada línea de código es pura genialidad.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "HTML y CSS son solo el comienzo,",
+                    "Con JavaScript el proyecto toma su aliento.",
+                    "Cada función y cada clase bien hecha,",
+                    "Hacen que la web sea una gran fiesta."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "La Magia del Bootcamp",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "El bootcamp es una experiencia fenomenal,",
+                    "Donde aprender a programar es esencial.",
+                    "De cero a experto en pocas semanas,",
+                    "Cada día trae nuevas ganas y escenas.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con cada línea de código y cada error,",
+                    "El conocimiento crece con gran fervor.",
+                    "Al finalizar el curso con gran éxito,",
+                    "El futuro en la programación es el objetivo."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Desarrollador Chileno",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "Desde el sur de Chile llega el talento,",
+                    "Con desarrollo y código como fundamento.",
+                    "En cada proyecto ponemos el corazón,",
+                    "Con pasión y técnica, ¡hacemos revolución!",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "En la oficina o desde casa, da igual,",
+                    "El programador chileno es muy especial.",
+                    "Con el teclado en mano y café a la vista,",
+                    "Conquistamos el mundo con cada pista."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "JavaScript y su Versatilidad",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "JavaScript es un lenguaje tan versátil,",
+                    "En el desarrollo web, siempre es vital.",
+                    "Desde el frontend hasta el backend, lo ves,",
+                    "Con este lenguaje todo es al revés.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con Node.js y sus módulos tan queridos,",
+                    "El backend también queda muy servido.",
+                    "Con bibliotecas y frameworks a la vista,",
+                    "JavaScript es la joya que siempre conquista."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "El Poder del Backend",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "En el backend, el poder está presente,",
+                    "Con bases de datos y lógica eficiente.",
+                    "Desde servidores hasta APIs en acción,",
+                    "El backend hace que todo tenga dirección.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con PHP, Python o el gran Node.js,",
+                    "El backend asegura que todo funcione con destreza.",
+                    "Cada consulta y cada petición manejada,",
+                    "Es el alma del sistema, siempre bien cuidada."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Frontend y Estilo",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "En el frontend el estilo es el rey,",
+                    "Con CSS y diseño, todo se ve muy bien.",
+                    "Con cada animación y cada transición,",
+                    "Hacemos que la web sea una gran atracción.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con frameworks como Bootstrap y Tailwind,",
+                    "El diseño web se vuelve un gran festín.",
+                    "Cada detalle y cada color bien elegido,",
+                    "Hacen que el frontend sea siempre bien recibido."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "El Arte del Código",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "El código es un arte, lo sabes bien,",
+                    "Cada algoritmo y función es un buen rehén.",
+                    "Con lógica y creatividad en cada línea,",
+                    "El programador crea soluciones que fascinen.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con cada proyecto y cada nuevo reto,",
+                    "El arte del código siempre es el secreto.",
+                    "Desde la idea inicial hasta la implementación,",
+                    "El resultado final es pura satisfacción."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "titulo": "Programador y su Creatividad",
+        "estrofas": [
+            {
+                "parrafos": [
+                    "El programador tiene una mente brillante,",
+                    "Con creatividad que siempre es desafiante.",
+                    "Desde la concepción hasta el diseño final,",
+                    "Cada solución es siempre especial.",
+                    "--------------- o ------------------"
+                ]
+            },
+            {
+                "parrafos": [
+                    "Con cada nuevo desafío y cada nuevo plan,",
+                    "La creatividad se desborda, es el gran afán.",
+                    "Desde un simple script hasta un gran sistema,",
+                    "La creatividad del programador siempre es el tema."
+                ]
+            }
+        ]
+    }
+]
